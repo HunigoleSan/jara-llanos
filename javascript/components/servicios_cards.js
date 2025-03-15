@@ -3,7 +3,7 @@ function cards(icono, nombre, descripcion){
     if (icono.includes("svg")){
         icono_html = icono
     } else{
-        icono_html = `<img class='card__img' src="assets/img/servicios/${icono}.png" alt="curaciones">`
+        icono_html = `<img class='card__img' src="assets/img/servicios/${icono}.png" alt="${nombre}">`
     }
 
     let Servicios_cards = 
