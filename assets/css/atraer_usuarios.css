@@ -54,11 +54,11 @@
     gap: 50px;
     align-items: center;
 }
-.atraer__banner > div > p{
+.atraer__banner > article > p{
     line-height: 150%;
     font-size: var(--tamano-atraer-usuarios-description);
 }
-.atraer__banner > div > p > span{
+.atraer__banner > article > p > span{
     display: inline;
     font-weight: var(--font-weight-medium);
 }
@@ -92,7 +92,7 @@
     .atraer__banner > img{
         max-width: unset;
     }
-    .atraer__banner > div {
+    .atraer__banner > article {
         flex-direction: column;
     }
 }
