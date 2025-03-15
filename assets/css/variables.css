@@ -1,0 +1,60 @@
+:root{
+    --color-primary:  #257CFF;
+    --color-secondary: #0F2340;
+    --color-tertiary: #5A5D61;
+    --color-white: #ffffff;
+    --color-sky: #66AAFF;
+
+    --color-white-transparency: rgba(255,255,255,0.60);
+
+    --color-icon: #0E4FB2;
+
+    --color-border-light-grey: #EEEEEE;
+    --color-border-light-sky: #D5DEEB;
+    --color-border-midnight-blue: #0F2340;
+
+    --color-text-light-grey: #A4A8AF;
+    --color-text-white: #FFFFFF;
+    --color-text-grey: #717171;
+    --color-boton-green: #26D01E;
+    --color-boton-grey: #EDEDED;
+
+    --color-shadow-blue-transparency: rgba(11, 55, 122, 0.15);
+    --color-shadow-blue-light-transparency: rgba(39, 84, 151, 0.10);
+    --color-shadow-blue-strong-tranparency: rgba(15, 35, 64, 0.25);
+    --color-shadow-green: #26D01D;
+
+    --font-size-logo-dental: 18px;
+    --font-size-logo-estetic: 14px;
+    --font-size-icon: 1.5rem;
+    --font-size-icon-big: clamp(18px,5vw, 30px);
+    --font-size-contactanos-icon-big: clamp(24px,5vw, 36px);
+    --font-size-specialization: 20px;
+
+    --tamano-encabezado: clamp(30px, 6vw, 65px);
+    --tamano-subencabezado: clamp(25px, 3.5vw, 45px);
+    --tamano-atraer-usuarios: clamp(45px, 5vw, 100px);
+    --tamano-atraer-usuarios-description: clamp(30px, 3vw, 55px);
+    --tamano-contactanos: clamp(18px, 5vw, 20px);
+    --tamano-subtitulo: 16px;
+    --tamano-parrafo: 15px;
+    --tamano-titulo: 25px;
+    --tamano-nosotros-description: 14px;
+    --tamano-subencabezado-employed: 18px;
+    --tamano-description-employed: 14px;
+    
+
+    --font-size-btn: 1rem;
+
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-semi-bold: 600;
+    --font-weight-bold: 700;
+    --font-weight-extra-bold: 800;
+
+    --btn-radius: 3.125rem; /* 50px */
+
+    --border-radius: 1.5rem; /* 24px */
+    --border-radius-full: 50px; /* 24px */
+
+}

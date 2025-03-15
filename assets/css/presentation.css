@@ -1,0 +1,232 @@
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.presentation{
+    padding: 86px 1rem 1.5rem 1rem;
+    color: var(--color-secondary);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 1440px;
+    margin: 0 auto;
+    width: 100%;
+    align-items: center;
+    position: relative;
+}
+.presentation-vector{
+    position: absolute;
+    z-index: 1;
+}
+.presentation-vector-bottom{
+    top: 575px;
+    right: calc(1440px - 175px);
+}
+.presentation-vector-bottom-small{
+    top: 510px;
+    right: calc(1440px - 700px);
+}
+.presentation-vector-top{
+    top: 548px;
+    right: calc(1440px - 490px);
+}
+
+.data__title{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    line-height: 110%;
+    font-size: var(--tamano-encabezado);
+    font-weight: var(--font-weight-regular);
+}
+.data__title > b{
+    color: var(--color-primary);
+    font-weight: var(--font-weight-semi-bold);
+}
+.presentation__content{
+    max-width: 849px;
+}
+
+.presentation__img,
+.presentation__content{
+    position: relative;
+    z-index: 2;
+}
+
+.presentation__content,
+.data{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 553px;
+}
+.section-description{
+    font-size: var(--tamano-parrafo);
+}
+.section-description > b:nth-child(1){
+    color: var(--color-primary);
+}
+.section-description > b:nth-child(2){
+    color: var(--color-tertiary);
+}
+
+.content__links{
+    display: flex;
+    gap: 14px;
+}
+.btn-social{
+    background: inherit;
+    outline-width: 1px;
+    outline-style: solid;
+    color: var(--color-text-grey);
+    font-weight: var(--font-size-medium);
+    outline-color: var(--color-boton-grey);
+    display: flex;
+    gap: 10px;
+    padding: 7.5px 0.75rem;
+    justify-content: center;
+    width: 100%;
+    background: var(--color-white);
+
+}
+.btn-social > i{
+    font-size: var(--font-size-icon);
+}
+.presentation__img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0rem;
+}
+.presentation__img > div{
+    transition: transform 600ms ease-in;
+}
+.woman{
+    position: relative;
+    z-index: 3;
+    height: 226px;
+}
+.blur-woman{
+    filter: blur(20px);
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+}
+.vector{
+    position: absolute;
+    animation: desplazamiento-vector var(--t) linear infinite alternate;
+    transform: scale(.5);
+}
+.vector-left{
+    left: -55%;
+}
+
+.vector-right{
+    right: -50%;
+    top: 20%;
+}
+.vector-bottom{
+    top: 36%;
+    z-index: 4;
+    left: -80%;
+}
+.blur-vector{
+    z-index: 1;
+    filter: blur(35px);
+}
+.blur-vector-bottom{
+    z-index: 4;
+}
+
+.specializations{
+    position: absolute;
+    z-index: 5;
+    background: var(--color-white-transparency);
+    backdrop-filter: blur(7px);
+    display: flex;
+    gap: 10px;
+/*     display: none; */
+    align-items: center;
+    border-radius: var(--border-radius-full);
+    padding: 8px 30px 8px 8px;
+    /* transform: scale(.6); */
+    box-shadow: 0px 4px 15px var(--color-shadow-blue-light-transparency);
+    animation: desplazamiento-specialization var(--t) linear infinite alternate;
+    
+}
+/* .specializations:hover{
+    animation: hover-scale 300ms linear infinite;
+} */
+
+.specializations__name{
+    font-size: var(--font-size-specialization);
+    font-weight: var(--font-size-medium);
+    white-space: nowrap;
+}
+.specializations > img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    background: red;
+    border-radius: 50%;
+}
+.implantalogo{
+    right: -70%;
+    top: -10%;
+}
+.ortodoncista{
+    top: 5%;
+    left: -50%;
+    z-index: 2;
+    background: var(--color-sky);
+    color: var(--color-text-white);
+}
+.endodonciasta{
+    top: 40%;
+    right: -80%;
+}
+.cirujano{
+    top: 77%;
+    left: -40%;
+}
+.woman{
+    animation: desplazamiento var(--t) linear infinite alternate;
+}
+
+@keyframes desplazamiento{
+    to{
+        transform: translateY(10px);
+    }
+    from{
+        transform: translateY(-10px);
+    }
+}
+@keyframes desplazamiento-vector{
+    to{
+        transform: translateY(10px) scale(.5);
+    }
+    from{
+        transform: translateY(-10px) scale(.5);
+    }
+}
+@keyframes desplazamiento-specialization{
+    to{
+        transform: translateY(10px) scale(.65);
+    }
+    from{
+        transform: translateY(-10px) scale(.65);
+    }
+}
+/* @keyframes hover-scale{
+    to{
+        transform: scale(0.8);
+    }
+    from{
+        transform: scale(0.8);
+    }
+}  */

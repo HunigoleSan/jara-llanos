@@ -1,0 +1,122 @@
+/* 
+html{
+    display: none;
+}
+ */
+
+.logo-icon-desktop{
+    display: none;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0px 10px 25px -10px rgba(255,255,255);
+    z-index: 100;
+    background: var(--color-white);
+    padding: 10px 1rem;
+
+}
+.nav{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.svg-navbar{
+    line-height: 0;
+    padding: 8px;
+    cursor: pointer;
+}
+.svg-navbar:hover{
+    background: rgb(245, 247, 255);
+    border-radius: 6px;
+}
+.logo{
+    font-family: 'Lilita One', sans-serif;
+    font-style: normal;
+    display: flex;
+    position: relative;
+    width: max-content;
+}
+.logo__name{
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    left: 85%;
+}
+.logo__name-estetic,
+.logo__name-dental{
+    font-style: normal;
+    letter-spacing: 1px;
+}
+.logo__name-estetic{
+    font-weight: var(--font-weight-medium);
+    font-size: var(--font-size-logo-estetic);
+    color: var(--color-secondary);
+    line-height: 40%;
+    margin-left: 12px;
+    
+}
+.logo__name-dental{
+    font-size: var(--font-size-logo-dental);
+    color: var(--color-primary);
+    
+}
+.list{
+    width: 100%;
+    padding: 3rem 1.5rem;
+    border-radius: 0rem 0rem var(--border-radius) var(--border-radius);
+    position: absolute;
+    top: 100%;
+    margin-left: -110%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.875rem;
+    transition: margin 300ms linear;
+    list-style-type: none;
+    background-color: var(--color-white);
+}
+.list_li{
+    color: var(--color-secondary);
+}
+.link{
+    color: inherit;
+    font-weight: var(--font-weight-medium);
+    padding: 0.5rem 0rem;
+}
+
+
+.btn-reservar-mobile{
+    margin-top: 1rem;
+}
+.btn-reservar-desktop{
+    display: none;
+}
+
+/* FOR MOBILE */
+
+@media screen and (min-width: 830px) {
+    
+    
+}
+
+@media screen and (min-width: 500px){
+    
+}
+
+
+/* FOR LAPTOPS */
+@media screen and (max-width: 1500px) {
+    
+}
+
+/* FOR DESKTOP 1501 -> */
+@media screen and (min-width : 1501px){}
+
+/* CSS FOR JAVASCRIPT */
+.show-navbar-mobile{
+    margin-left: calc(0% - 16px);
+}
+

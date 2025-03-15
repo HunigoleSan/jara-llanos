@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lilita+One&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+a,
+img,
+span {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    /* overflow-x: hidden;
+    position: relative; */
+    width: 100%;
+    min-height: 100dvh;
+}
+ul{
+    list-style-type: none;
+}
+
+main{
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+    display: flex;
+}
+
+
+
+.text-center{
+    text-align: center;
+}
+
+.section-title{
+    padding: 10px 10px;
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 3;
+}
+
+.section-title h2{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: var(--font-weight-regular);
+    font-size: var(--tamano-subencabezado);
+    color: var(--color-secondary);
+}
+
+
+.relative{
+    position: relative;
+}
+.btn{
+    padding: 0.625rem 1.25rem;
+    width: 100%;
+    text-align: center;
+    border-radius: var(--btn-radius);
+    color: var(--color-text-white);
+    font-weight: var(--font-weight-semi-bold);
+    font-size: var(--font-size-btn);
+}
+.btn-blue{
+    background-color: var(--color-primary);
+}
+
+.max-width-device{
+    max-width: 1440px;
+}
+.text-blue{
+    color: var(--color-primary);
+}
+.font-weight-semi-bold{
+    font-weight: var(--font-weight-semi-bold);
+}

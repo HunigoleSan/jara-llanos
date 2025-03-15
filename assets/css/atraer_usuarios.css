@@ -1,0 +1,98 @@
+.atraer_usuario{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.atraer{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 1rem 0rem 0rem 0rem;
+    background: var(--color-secondary);
+    color: var(--color-secondary);
+    border-radius: 24px;
+
+}
+.atraer_experiencia{
+    display: flex;
+    background: var(--color-white);
+    padding: 0rem 50px;
+    flex-direction: column;
+    gap: 1.5rem;
+    justify-content: space-around;
+}
+.atraer_experiencia > ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.atraer_experiencia > ul > li{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1.5rem 0rem;
+    color: inherit;
+    gap: 1.5rem;
+}
+.atraer_experiencia > ul > li > span{
+    font-size: var(--tamano-atraer-usuarios);
+    font-family: 'Lato', sans-serif;
+    font-weight: var(--font-weight-bold);
+}
+.atraer_experiencia > ul >li > p{
+    font-size: 18px;
+}
+
+.atraer__banner{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    color: var(--color-white);
+    font-family: 'Lato', sans-serif;
+    gap: 50px;
+    align-items: center;
+}
+.atraer__banner > div > p{
+    line-height: 150%;
+    font-size: var(--tamano-atraer-usuarios-description);
+}
+.atraer__banner > div > p > span{
+    display: inline;
+    font-weight: var(--font-weight-medium);
+}
+.atraer__banner > img{
+    width: 100%;
+    max-width: 544px;
+}
+
+@media screen and (min-width: 600px) {
+    .atraer{
+        padding: 50px 0px;
+    }
+    .atraer_experiencia > ul{
+        flex-direction: unset;
+    }
+}
+@media screen and (min-width: 1334px) {
+    .atraer__banner{
+        padding: 65px 50px 65px 65px;
+        flex-direction: unset;
+        gap: 50px;
+    }
+    .atraer{
+        padding: 50px 0px 0px 0px;
+    }
+    .atraer_usuario{
+        padding: 50px;
+        max-width: 1440px;
+
+    }
+    .atraer__banner > img{
+        max-width: unset;
+    }
+    .atraer__banner > div {
+        flex-direction: column;
+    }
+}

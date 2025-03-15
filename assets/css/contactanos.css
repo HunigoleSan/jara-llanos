@@ -1,0 +1,95 @@
+.contactanos{
+    display: flex;
+    background: #FAFAFA;
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    width: 100%;
+    flex-direction: column;
+}
+.contactanos__data{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1rem;
+    gap: 24px;
+    height: 100%;
+
+
+}
+.iframe{
+    width: 100% ;
+    min-height: 300px;
+    border-radius: 6px;
+    max-width: 660px;
+    flex: 1;
+}
+
+
+.contactanos__horarios{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    color: var(--color-secondary);
+}
+.contactanos__frase{
+    padding: 1rem;
+    text-align: center;
+    background: var(--color-secondary);
+    color: var(--color-white);
+    width: 100%;
+}
+.horarios,
+.ubicacion{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.horarios > h4,
+.ubicacion > h4{
+    color: var(--color-primary);
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    font-size: var(--tamano-contactanos);
+}
+.ubicacion > h4 > i {
+    font-size: var(--font-size-contactanos-icon-big);
+}
+.horarios > div,
+.ubicacion > div{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: var(--color-secondary);
+}
+.horarios > div > div,
+.ubicacion > div > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+}
+.horarios > div > div:nth-child(1){
+    border-bottom: 1px solid var(--color-border-midnight-blue);
+}
+.horarios > div > div:nth-child(1) > p{
+    font-weight: var(--font-weight-medium);
+}
+.horarios > div > div > p{
+    flex: 1;
+}
+
+.ubicacion > div > div > span{
+    display: flex;
+    gap: 10px;
+    font-weight: var(--font-weight-medium);
+    align-items: center;
+}
+.ubicacion > div > div > span > i{
+    font-size: var(--font-size-icon);
+    color: inherit;
+}

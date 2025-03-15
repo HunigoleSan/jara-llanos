@@ -1,0 +1,115 @@
+@import url(variables.css);
+
+.testimonios{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 50px 1rem;
+}
+.testimonios > .section-title{
+    max-width: 788px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.testimonios > .section-title h2{
+    max-width: 551px;
+}
+
+.section-title h2{
+    text-align: center;
+}
+
+.section-title p{
+    margin-top: 15px;
+    text-align: center;
+    font-size: var(--font-size-logo-dental);
+    color: var(--color-secondary);
+    font-family: "Inter", sans-serif;
+}
+
+.testimonios-cards{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    justify-content: start;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+}
+
+.testimonios-cards::-webkit-scrollbar{
+    display: none;
+}
+
+.test-card{
+    flex-shrink: 0;
+    scroll-snap-align: start;
+    object-fit: contain;
+}
+
+.test-card{
+    border: 1px solid var(--color-border-light-sky);
+    width: 353px;
+    height: 168px;
+    border-radius: 5px;
+    padding: 10px 12px;
+}
+
+.datos-usuario{
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+
+.datos-nombre h3{
+    font-family: "Inter", sans-serif;
+    font-size: var(--tamano-parrafo);
+    font-weight: var(--font-weight-medium);
+    color: var(--color-secondary);
+}
+
+.datos-nombre p{
+    font-family: "Inter", sans-serif;
+    font-weight: var(--font-weight-regular);
+    font-size: var(--tamano-parrafo-pequeno);
+    color: var(--color-tertiary);
+}
+.card-datos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-comentario p{
+    font-family: "Inter", sans-serif;
+    font-size: var(--font-size-logo-estetic);
+    font-weight: var(--font-weight-regular);
+    color: var(--color-secondary);
+}
+
+@media screen and (min-width: 780px){
+    .testimonios{
+        padding: 50px 16px;
+    }
+
+    .section-title P{
+        font-size: var(--tamano-subtitulo);
+    }
+
+    .logo-pago::-webkit-scrollbar{
+        display: none;
+    }
+    
+    .test-card{
+        width: 343px;
+        
+    }
+}
+@media screen and (min-width:1500px) {
+    .testimonios-cards{
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+}

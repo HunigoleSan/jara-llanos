@@ -1,0 +1,232 @@
+.conocenos{
+    display: flex;
+    flex-wrap: wrap;/* PRESTAR ATENCIÓN A ESTO */
+    gap: 50px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.conocenos__art{
+    display: flex;
+    gap: 1.5rem;
+    padding: 0rem 1rem;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.conocenos_data{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    flex: 1;
+    max-width: 740px;
+
+}
+
+.section-description{
+    color: var(--color-tertiary);
+}
+.section-title--font {
+    font-family: 'Inter', sans-serif;
+    color: var(--color-secondary);
+    text-align: center;
+    
+}
+.section-title--font > h2 {
+    font-weight:  var(--font-weight-medium);
+}
+.section-title-remarcar{
+    font-weight: var(--font-weight-semi-bold);
+    color: var(--color-primary);
+    display: inline;
+}
+.section-title-flex-element{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.section-title--font{
+    gap: 18px;
+}
+.section-title--font > h2{
+    font-size: var(--font-size-specialization) !important;
+    color: var(--color-secondary);
+}
+/* CLASE CARD DE DAMARIS */
+.card{
+    background-color: white;
+    box-shadow: 0px 4px 25px -7px var(--color-shadow-blue-transparency);
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 48px 24px;
+    gap: 16px;
+}
+.contactanos__cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+}
+.card-contactanos{
+    gap: 1rem;
+    padding: 1rem;
+    border: 1px solid var(--color-border-light-grey);
+    box-shadow: unset;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.card__title{
+    color: var(--color-secondary);
+    font-size: var(--tamano-parrafo);
+    font-weight: var(--font-weight-bold);
+}
+.card__description{
+    color: var(--color-text-light-grey);
+    font-size: var(--tamano-nosotros-description);
+}
+.card-contactanos > i{
+    font-size: var(--font-size-icon);
+    color: var(--color-primary);
+}
+.contactanos__img{
+    width: 100%;
+    max-width: 550px;
+    border-radius: 6px;
+}
+.contactanos__beneficios{
+    display: flex;
+    flex-direction: column;
+    color: var(--color-secondary);
+    gap: .5rem;
+}
+.contactanos__beneficios > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.contactanos__beneficios > ul > li{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.contactanos__beneficios > ul > li > p{
+    font-size: var(--font-size-subtitulo);
+    font-weight: var(--font-weight-semi-bold);
+}
+.contactanos__beneficios > ul > li > i{
+    color: var(--color-primary);
+}
+.conocenos__employeds{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 1rem;
+}
+
+.employeds_cards{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+.employeds_card{
+    padding: 1rem;
+    color: var(--color-secondary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: min-content;
+    justify-content: center;
+}
+.employeds_card > img{
+    max-width: 187px;
+    max-height: 187px;
+}
+.employeds_card > h3{
+    color: inherit;
+    font-size: var(--tamano-subencabezado-employed);
+}
+.employeds_card > span{
+    color: var(--color-primary);
+    font-size: 1rem;
+}
+.employeds_card > p{
+    font-size: var(--tamano-description-employed);
+    text-align: center;
+    color: inherit;
+}
+
+.section-description--color{
+    margin-top: 0 !important;
+}
+
+/* FOR MOBILE */
+@media screen and (max-width: 414px) {
+    
+}
+
+@media screen and (min-width: 1180px){
+    .conocenos__art{
+        flex-wrap: unset;
+        
+        flex-direction: row-reverse;
+        justify-content: baseline;
+        align-items: center;
+    }
+    .conocenos{
+        padding: 50px;
+    }
+    .conocenos > .conocenos__art:nth-child(1) > .conocenos_data > .section-title{
+        max-width: unset;
+        width: 100%;
+        margin: unset;
+    }
+    .conocenos > .conocenos__art:nth-child(1) > .conocenos_data .section-title .section-description{
+        text-align: start !important;
+    }
+    .conocenos > .conocenos__art:nth-child(2){
+        padding: 50px 1rem;
+    }
+
+    .section-title--font > h2{
+        text-align: center !important;
+    }
+
+    .conocenos > .conocenos__art:nth-child(3){
+        flex-direction: column;
+    }
+
+
+    /* .conocenos__art{
+        flex-wrap: unset;
+        flex-direction: row-reverse;
+    }
+    .contactanos__img{
+        width: unset;
+    }
+    .conocenos_data{
+        width: 100%;
+        height: 700px;
+    } */
+}
+
+/* FOR TABLETS */
+@media screen and (max-width: 1100px) {
+    
+}
+
+/* FOR LAPTOPS */
+@media screen and (max-width: 1500px) {
+    
+}
+
+/* FOR DESKTOP 1501 -> */
+@media screen and (min-width : 1501px){}
