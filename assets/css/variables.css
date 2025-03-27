@@ -16,6 +16,7 @@
     --color-text-light-grey: #A4A8AF;
     --color-text-white: #FFFFFF;
     --color-text-grey: #717171;
+    --color-text-black: #020611;
     --color-boton-green: #26D01E;
     --color-boton-grey: #EDEDED;
 
@@ -24,8 +25,9 @@
     --color-shadow-blue-strong-tranparency: rgba(15, 35, 64, 0.25);
     --color-shadow-green: #26D01D;
 
-    --font-size-logo-dental: 18px;
-    --font-size-logo-estetic: 14px;
+    --font-size-logo-dental: clamp(16px, 2vw, 18px);
+    --font-size-logo-jara: clamp(13px, 1.3vw, 15px);
+    --font-size-logo-consultorio: clamp(12px,1.3vw,14px);
     --font-size-icon: 1.5rem;
     --font-size-icon-big: clamp(18px,5vw, 30px);
     --font-size-contactanos-icon-big: clamp(24px,5vw, 36px);
