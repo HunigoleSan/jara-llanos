@@ -283,14 +283,14 @@
         top: -3%;
     }
     .ortodoncista{
-        top: 23%;
+        top: 25%;
         left: -60%;
         z-index: 2;
         background: var(--color-sky);
         color: var(--color-text-white);
     }
     .endodonciasta{
-        top: 43%;
+        top: 50%;
         right: 120%;
     }
     .cirujano{
