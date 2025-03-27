@@ -17,11 +17,13 @@
 @media screen and (max-width: 530px) {
     .card{
         width: 100%;
-        padding: 1.5rem;
     }
     .container-ellipse{
         filter: blur(5px);
 
+    }
+    .card-content{
+        width: 100%;
     }
 }
 
