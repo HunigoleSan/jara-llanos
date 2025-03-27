@@ -153,10 +153,14 @@
 .employeds_card > h3{
     color: inherit;
     font-size: var(--tamano-subencabezado-employed);
+    text-align: center;
 }
-.employeds_card > span{
+.employeds_card-speciality{
     color: var(--color-primary);
     font-size: 1rem;
+}
+.codigo_colegiatura{
+    font-weight: var(--font-weight-medium);
 }
 .employeds_card > p{
     font-size: var(--tamano-description-employed);
