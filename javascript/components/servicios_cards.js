@@ -1,5 +1,6 @@
 function cards(icono, nombre, descripcion, tipos = ""){
     let icono_html = "";
+    
     if (icono.includes("svg")){
         icono_html = icono
     } else{

@@ -17,8 +17,8 @@ let Servicios_cards = [
                 <li><i class='bx bx-check'></i> Molar</li>
             </ul>
         `
-
     },
+
     {
         nombre: "Ortodoncia",
         descripcion:"Alinea tu sonrisa con precisión",
