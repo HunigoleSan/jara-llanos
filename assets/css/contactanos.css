@@ -89,6 +89,10 @@
     font-weight: var(--font-weight-medium);
     align-items: center;
 }
+.ubicacion > div > div > span > span a{
+    color: inherit;
+    border-bottom: 1px solid var(--color-border-midnight-blue);
+}
 .ubicacion > div > div > span > i{
     font-size: var(--font-size-icon);
     color: inherit;
