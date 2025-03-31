@@ -135,6 +135,14 @@
     gap: 1rem;
     width: min-content;
     justify-content: center;
+    opacity: 0;
+    transform: translateX(-30px);
+    transition: transform 300ms ease, 
+        opacity 300ms ease;
+}
+.efecto-aparicion-employeds{
+    opacity: 1;
+    transform: translateX(0);
 }
 .employeds_card > img{
     max-width: 187px;
