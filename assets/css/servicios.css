@@ -47,8 +47,13 @@
     position: relative;
     z-index: 1;
     overflow: hidden;
-    
+    opacity: 0;
+    transform: translateY(-30px);
+    transition: opacity 300ms ease,
+        transform 300ms ease;
+
 }
+
 .card-content{
     display: flex;
     gap: 16px;
@@ -182,6 +187,11 @@
     right: -170px;
     top: calc(100% + 135px);
     
+}
+
+.efecto-aparicion{
+    opacity: 1;
+    transform: translateY(0);
 }
 
 

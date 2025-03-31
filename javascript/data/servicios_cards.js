@@ -10,6 +10,7 @@ let Servicios_cards = [
         nombre: "Endodoncia",
         descripcion:"Cuidado profundo para tu sonrisa",
         icono: "endodoncia",
+        
         tipos:`
             <ul class='list-services'>
                 <li><i class='bx bx-check'></i> Anterior</li>
@@ -28,7 +29,7 @@ let Servicios_cards = [
     {
         nombre: "Implantes Dentales",
         descripcion:"Sonrisa completa y natural",
-        icono: "protesis",
+        icono: "implante",
     },
 
     {
@@ -84,7 +85,7 @@ let Servicios_cards = [
     {
         nombre: "Brackets",
         descripcion:"Sonrisa alineada con comodidad",
-        icono: "protesis",
+        icono: "dientes",
         tipos:`
             <ul class='list-services'>
                 <li><i class='bx bx-check'></i> Metálico</li>
@@ -97,7 +98,7 @@ let Servicios_cards = [
     {
         nombre: "Coronas Dentales",
         descripcion:"Protección y estética para tu sonrisa",
-        icono: "protesis",
+        icono: "coronas",
         tipos:`
             <ul class='list-services'>
                 <li><i class='bx bx-check'></i> Porcelana</li>
