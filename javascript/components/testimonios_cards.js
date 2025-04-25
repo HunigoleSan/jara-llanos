@@ -11,10 +11,10 @@ function cards (user_testimonio){
         <section class="card-datos">
             <section class="datos-usuario">
                 <div class='first-letter-name ${background}'>${firstLetterName}</div>
-                <div class="datos-nombre">
+                <section class="datos-nombre">
                     <h3>${nombre}</h3>
                     <p>${empresa}</p>
-                </div>
+                </section>
             </section>
             <img class="datos-lugar" src="./assets/img/testimonios/${lugar}.png" alt="">
         </section>
@@ -28,7 +28,7 @@ function cards (user_testimonio){
 
 function mostrarVerMasDelComentario(comentario){
     let verMas = ""
-    if(comentario.length >= 317){
+    if(comentario.length >= 350){
         verMas = "<span class='ver_mas'>Ver más</span>"
     }
     return verMas

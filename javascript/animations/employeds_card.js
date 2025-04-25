@@ -3,9 +3,7 @@ let widthBandera = false
 let scrollYe = 0
 
 window.document.addEventListener("scroll", ()=>{
-    
     modificarAncho()
-
 
     if(window.scrollY > scrollYe && !bandera){
         efectoAparicion()
@@ -16,7 +14,6 @@ window.document.addEventListener("scroll", ()=>{
         bandera = false
         efectoOcultar()
     }
-    
     
 })
 function modificarAncho(){

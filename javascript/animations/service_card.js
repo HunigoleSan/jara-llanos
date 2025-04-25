@@ -18,10 +18,6 @@ window.document.addEventListener('scroll',()=>{
 })
 
 
-window.document.addEventListener('DOMContentLoaded',()=>{
-    
-})
-
 function modificarAncho(){
     if(window.innerWidth > 1239 && !widthBandera){
         scrollYs = 32
