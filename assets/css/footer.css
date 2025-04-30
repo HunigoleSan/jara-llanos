@@ -66,6 +66,7 @@
 .footer__item > li > a {
     color: var(--color-white);
     font-size: 15px;
+    text-decoration: underline;
 }
 .footer__item .ubicacion > div > div > span >i{
     color: inherit;

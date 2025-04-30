@@ -1,5 +1,4 @@
 window.document.addEventListener('DOMContentLoaded', ()=>{
-    console.log("hola")
     let $mostrar_mas_comentario = document.querySelectorAll('.ver_mas')
 
     $mostrar_mas_comentario.forEach(element =>{
