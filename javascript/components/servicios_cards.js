@@ -4,7 +4,7 @@ function cards(icono="", nombre, descripcion, tipos = ""){
     if (icono.includes("svg")){
         icono_html = icono
     } else{
-        icono_html = `<img class='card__img' src="assets/img/servicios/${icono}.png" alt="${nombre}">`
+        icono_html = `<img class='card__img' src="assets/img/servicios/${icono}.webp" alt="${nombre}">`
     }
 
 
