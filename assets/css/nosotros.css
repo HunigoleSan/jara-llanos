@@ -78,10 +78,6 @@
     color: var(--color-text-light-grey);
     font-size: var(--tamano-nosotros-description);
 }
-.card-contactanos > i{
-    font-size: var(--font-size-icon);
-    color: var(--color-primary);
-}
 .contactanos__img{
     width: 100%;
     max-width: 550px;
@@ -107,15 +103,16 @@
     font-size: var(--font-size-subtitulo);
     font-weight: var(--font-weight-semi-bold);
 }
-.contactanos__beneficios > ul > li > i{
-    color: var(--color-primary);
-}
 .conocenos__employeds{
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     gap: 1rem;
+}
+.card-contactanos > svg{
+    min-width: 24px;
+    min-height: 24px;
 }
 
 .employeds_cards{
