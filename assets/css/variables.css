@@ -13,7 +13,7 @@
     --color-border-light-sky: #D5DEEB;
     --color-border-midnight-blue: #0F2340;
 
-    --color-text-light-grey: #A4A8AF;
+    --color-text-light-grey: #696D77;
     --color-text-white: #FFFFFF;
     --color-text-grey: #717171;
     --color-text-black: #020611;
@@ -32,6 +32,7 @@
     --font-size-icon-big: clamp(18px,5vw, 30px);
     --font-size-contactanos-icon-big: clamp(24px,5vw, 36px);
     --font-size-specialization: 20px;
+    --font-size-subtitulo: clamp(15px, 5vw, 20px)
 
     --tamano-encabezado: clamp(30px, 6vw, 65px);
     --tamano-subencabezado: clamp(25px, 3.5vw, 45px);
