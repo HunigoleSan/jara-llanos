@@ -90,3 +90,6 @@ html{
 .font-weight-semi-bold{
     font-weight: var(--font-weight-semi-bold);
 }
+.align-items-center{
+    align-items: center;
+}

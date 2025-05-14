@@ -33,7 +33,7 @@
 }
 
 .data__title{
-    font-family: "Plus Jakarta Sans", sans-serif;
+    font-family: "plus_jakarta_sansregular", sans-serif;
     line-height: 110%;
     font-size: var(--tamano-encabezado);
     font-weight: var(--font-weight-regular);
