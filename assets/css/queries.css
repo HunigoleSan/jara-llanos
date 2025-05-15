@@ -2,7 +2,7 @@
 @media screen and (max-width: 780px) {
     .servicios{
         gap: 35px;
-        padding: 24px 16px;
+        
     }
     
     .vector-ellipse-1,
@@ -133,15 +133,13 @@
         height: 350px;
     }
     .presentation{
-        padding: 24px 50px;
+        padding: 160px 1rem 1rem 1rem;
     }
     
 }
 
 @media screen and (min-width:830px) {
-    .presentation{
-        padding-top: 160px;
-    }
+    
 }
 
 @media screen and (min-width: 1040px) {

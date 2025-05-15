@@ -33,7 +33,7 @@
 }
 
 .data__title{
-    font-family: "Plus Jakarta Sans", sans-serif;
+    font-family: "plus_jakarta_sansregular", sans-serif;
     line-height: 110%;
     font-size: var(--tamano-encabezado);
     font-weight: var(--font-weight-regular);
@@ -42,16 +42,26 @@
     color: var(--color-primary);
     font-weight: var(--font-weight-semi-bold);
 }
-.presentation__content{
-    max-width: 849px;
-}
+
+
 
 .presentation__img,
 .presentation__content{
     position: relative;
     z-index: 2;
 }
-
+.presentation__img{
+    opacity: 0;
+    transform: translateX(200px);
+    animation: efecto-aparicion-right 1.5s ease forwards;
+}
+.presentation__content{
+    max-width: 849px;
+    opacity: 0;
+    transform: translateX(-200px);
+    transition: transform 300ms ease;
+    animation: efecto-aparicion-left 1.5s ease forwards;
+}
 .presentation__content,
 .data{
     display: flex;
@@ -222,11 +232,29 @@
         transform: translateY(-10px) scale(.65);
     }
 }
-/* @keyframes hover-scale{
-    to{
-        transform: scale(0.8);
-    }
+/* CSS PARA JAVASCRIPT */
+
+@keyframes efecto-aparicion-left {
+
     from{
-        transform: scale(0.8);
+        opacity: 0;
+        transform: translateX(-200px);
     }
-}  */
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+@keyframes efecto-aparicion-right {
+
+    from{
+        opacity: 0;
+        transform: translateX(200px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+

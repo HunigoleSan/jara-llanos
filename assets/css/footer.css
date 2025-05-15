@@ -16,7 +16,7 @@
 .vector__footer{
     position: absolute;
     z-index: 2;
-    bottom:-200px;
+    bottom:-290px;
 }
 .shadow__vector-footer{
     filter: blur(25px);
@@ -31,6 +31,18 @@
     z-index: 3;
     max-width: 1440px;
 
+}
+.footer__item> .logo{
+    color: white;
+}
+.footer__item > .logo > .logo-icon-desktop > path,
+.footer__item > .logo > .logo-icon-mobile > path{
+    fill: currentColor;
+}
+.footer__item > .logo > .logo__name > .logo__name-consultorio,
+.footer__item > .logo > .logo__name > .logo__name-dental,
+.footer__item > .logo > .logo__name > .logo__name-jara{
+    color: inherit;
 }
 .footer__copyright{
     text-align: center;
@@ -54,6 +66,7 @@
 .footer__item > li > a {
     color: var(--color-white);
     font-size: 15px;
+    text-decoration: underline;
 }
 .footer__item .ubicacion > div > div > span >i{
     color: inherit;
@@ -72,6 +85,12 @@
 }
 .footer__item > .ubicacion > div{
     color: var(--color-white);
+}
+.ubicacion_list > li > span > svg{
+    width: 24px !important;
+    height: 24px !important;
+    min-width: 24px;
+    min-height: 24px;
 }
 
 @media screen and (min-width: 540px){

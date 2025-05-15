@@ -59,37 +59,40 @@
 .ubicacion > h4 > i {
     font-size: var(--font-size-contactanos-icon-big);
 }
-.horarios > div,
-.ubicacion > div{
+.horarios > .horarios_list,
+.ubicacion > .ubicacion_list{
     display: flex;
     flex-direction: column;
     gap: 8px;
     color: var(--color-secondary);
 }
-.horarios > div > div,
-.ubicacion > div > div{
+.horarios > .horarios_list > li,
+.ubicacion > .ubicacion_list > li{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 8px 12px;
 }
-.horarios > div > div:nth-child(1){
+.horarios > .horarios_list > li:nth-child(1){
     border-bottom: 1px solid var(--color-border-midnight-blue);
 }
-.horarios > div > div:nth-child(1) > p{
+.horarios > .horarios_list > li:nth-child(1) > p{
     font-weight: var(--font-weight-medium);
 }
-.horarios > div > div > p{
+.horarios > .horarios_list > li > p{
     flex: 1;
 }
 
-.ubicacion > div > div > span{
+.ubicacion_list > li > span{
     display: flex;
     gap: 10px;
-    font-weight: var(--font-weight-medium);
     align-items: center;
 }
-.ubicacion > div > div > span > i{
+.ubicacion_list > li > span > span a{
+    color: inherit;
+    border-bottom: 1px solid var(--color-border-midnight-blue);
+}
+.ubicacion_list > li > span > i{
     font-size: var(--font-size-icon);
     color: inherit;
 }

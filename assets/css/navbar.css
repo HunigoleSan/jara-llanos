@@ -18,6 +18,7 @@ html{
     padding: 10px 1rem;
 
 }
+
 .nav{
     position: relative;
     display: flex;
@@ -34,8 +35,6 @@ html{
     border-radius: 6px;
 }
 .logo{
-    font-family: 'Lilita One', sans-serif;
-    font-style: normal;
     display: flex;
     position: relative;
     width: max-content;
@@ -50,7 +49,7 @@ html{
     font-style: normal;
 }
 .logo__name-consultorio{
-    font-family: "Akatab", sans-serif;
+    font-family: "akatabregular", sans-serif;
     font-weight: var(--font-weight-regular);
     font-size: var(--font-size-logo-consultorio);
     color: var(--color-text-black);
@@ -59,7 +58,7 @@ html{
 
 }
 .logo__name-jara{
-    font-family: 'Cookie',sans-serif;
+    font-family: 'cookieregular',sans-serif;
     font-weight: var(--font-weight-medium);
     font-size: var(--font-size-logo-jara);
     color: var(--color-secondary);
@@ -68,7 +67,7 @@ html{
     padding-left: 34px;
 }
 .logo__name-dental{
-    font-family: 'Inter',sans-serif;
+    font-family: 'inter_variableitalic',sans-serif;
     font-size: var(--font-size-logo-dental);
     font-style: italic;
     color: var(--color-primary);
