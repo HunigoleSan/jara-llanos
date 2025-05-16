@@ -1,9 +1,10 @@
-.menu{
+.menu {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
 }
-.presentation{
+
+.presentation {
     padding: 86px 1rem 1.5rem 1rem;
     color: var(--color-secondary);
     display: flex;
@@ -15,80 +16,94 @@
     align-items: center;
     position: relative;
 }
-.presentation-vector{
+
+.presentation-vector {
     position: absolute;
     z-index: 1;
 }
-.presentation-vector-bottom{
+
+.presentation-vector-bottom {
     top: 575px;
     right: calc(1440px - 175px);
 }
-.presentation-vector-bottom-small{
+
+.presentation-vector-bottom-small {
     top: 510px;
     right: calc(1440px - 700px);
 }
-.presentation-vector-top{
+
+.presentation-vector-top {
     top: 548px;
     right: calc(1440px - 490px);
 }
 
-.data__title{
+.data__title {
     font-family: "plus_jakarta_sansregular", sans-serif;
     line-height: 110%;
     font-size: var(--tamano-encabezado);
     font-weight: var(--font-weight-regular);
 }
-.data__title > b{
+
+.data__title>b {
     color: var(--color-primary);
     font-weight: var(--font-weight-semi-bold);
 }
 
 
 
+
 .presentation__img,
-.presentation__content{
+.presentation__content {
     position: relative;
     z-index: 2;
 }
-.presentation__img{
+
+.presentation__img {
     opacity: 0;
     transform: translateX(200px);
     animation: efecto-aparicion-right 1.5s ease forwards;
 }
-.presentation__content{
+
+.presentation__content {
     max-width: 849px;
     opacity: 0;
     transform: translateX(-200px);
     transition: transform 300ms ease;
     animation: efecto-aparicion-left 1.5s ease forwards;
 }
+
 .presentation__content,
-.data{
+.data {
     display: flex;
     flex-direction: column;
     gap: 32px;
 }
-.social{
+
+.social {
     display: flex;
     flex-direction: column;
     gap: 1rem;
     max-width: 553px;
 }
-.section-description{
+
+.section-description {
     font-size: var(--tamano-parrafo);
 }
-.section-description > b:nth-child(1){
+
+.section-description>b:nth-child(1) {
     color: var(--color-primary);
 }
-.section-description > b:nth-child(2){
+
+.section-description>b:nth-child(2) {
     color: var(--color-tertiary);
 }
 
-.content__links{
+.content__links {
     display: flex;
     gap: 14px;
 }
-.btn-social{
+
+.btn-social {
     background: inherit;
     outline-width: 1px;
     outline-style: solid;
@@ -103,144 +118,174 @@
     background: var(--color-white);
 
 }
-.btn-social > i{
+
+.btn-social>i {
     font-size: var(--font-size-icon);
 }
-.presentation__img{
+
+.presentation__img {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 2rem 0rem;
+    padding-top: 3rem;
 }
-.presentation__img > div{
+
+.presentation__img>div {
     transition: transform 600ms ease-in;
 }
-.woman{
+
+.woman {
+    filter: drop-shadow(0 0px 50px rgb(92, 157, 255, 75%));
     position: relative;
     z-index: 3;
     height: 226px;
 }
-.blur-woman{
+
+.blur-woman {
     filter: blur(20px);
     position: absolute;
     z-index: 2;
     top: 0;
     left: 0;
 }
-.vector{
+
+.vector {
     position: absolute;
-    animation: desplazamiento-vector var(--t) linear infinite alternate;
-    transform: scale(.5);
-}
-.vector-left{
-    left: -55%;
+    /* transform: scale(.5); */
 }
 
-.vector-right{
-    right: -50%;
-    top: 20%;
+.vector>img {
+    animation: desplazamiento-vector var(--t) linear infinite alternate;
 }
-.vector-bottom{
-    top: 36%;
+
+.vector-left {
+    top: 30%;
+    left: -25%;
+}
+
+.vector-right {
+    right: -10%;
+    top: 30%;
+}
+
+.vector-bottom {
+    top: 60%;
     z-index: 4;
-    left: -80%;
+    left: 0%;
 }
-.blur-vector{
+
+.blur-vector {
     z-index: 1;
     filter: blur(35px);
 }
-.blur-vector-bottom{
+
+.blur-vector-bottom {
     z-index: 4;
 }
 
-.specializations{
+.specializations {
     position: absolute;
     z-index: 5;
     background: var(--color-white-transparency);
     backdrop-filter: blur(7px);
     display: flex;
     gap: 10px;
-/*     display: none; */
+    /*     display: none; */
     align-items: center;
     border-radius: var(--border-radius-full);
     padding: 8px 30px 8px 8px;
     /* transform: scale(.6); */
     box-shadow: 0px 4px 15px var(--color-shadow-blue-light-transparency);
     animation: desplazamiento-specialization var(--t) linear infinite alternate;
-    
+
 }
+
 /* .specializations:hover{
     animation: hover-scale 300ms linear infinite;
 } */
 
-.specializations__name{
+.specializations__name {
     font-size: var(--font-size-specialization);
     font-weight: var(--font-size-medium);
     white-space: nowrap;
 }
-.specializations > img{
+
+.specializations>img {
     width: 50px;
     height: 50px;
     object-fit: cover;
     background: red;
     border-radius: 50%;
 }
-.implantalogo{
-    right: -70%;
-    top: -10%;
-}
-.ortodoncista{
-    top: 5%;
-    left: -50%;
-    z-index: 2;
-    background: var(--color-sky);
-    color: var(--color-text-white);
-}
-.endodonciasta{
-    top: 40%;
-    right: -80%;
-}
-.blanqueamiento{
-    top: 77%;
-    left: -40%;
-}
-.woman{
+
+.woman >img {
     animation: desplazamiento var(--t) linear infinite alternate;
 }
 
-@keyframes desplazamiento{
-    to{
+.implantalogo {
+    right: -30%;
+    top: -15%;
+}
+
+.ortodoncista {
+
+    z-index: 2;
+    top: 10%;
+    left: -25%;
+    background: var(--color-sky);
+    color: var(--color-text-white);
+}
+
+.endodonciasta {
+    top: 40%;
+    right: -30%;
+}
+
+.blanqueamiento {
+    top: 77%;
+    left: -20%;
+}
+
+@keyframes desplazamiento {
+    to {
         transform: translateY(10px);
     }
-    from{
+
+    from {
         transform: translateY(-10px);
     }
 }
-@keyframes desplazamiento-vector{
-    to{
-        transform: translateY(10px) scale(.5);
+
+@keyframes desplazamiento-vector {
+    to {
+        transform: translateY(10px);
     }
-    from{
-        transform: translateY(-10px) scale(.5);
-    }
-}
-@keyframes desplazamiento-specialization{
-    to{
-        transform: translateY(10px) scale(.65);
-    }
-    from{
-        transform: translateY(-10px) scale(.65);
+
+    from {
+        transform: translateY(-10px);
     }
 }
+
+@keyframes desplazamiento-specialization {
+    to {
+        transform: translateY(10px) scale(.85);
+    }
+
+    from {
+        transform: translateY(-10px) scale(.85);
+    }
+}
+
 /* CSS PARA JAVASCRIPT */
 
 @keyframes efecto-aparicion-left {
 
-    from{
+    from {
         opacity: 0;
         transform: translateX(-200px);
     }
-    to{
+
+    to {
         opacity: 1;
         transform: translateX(0px);
     }
@@ -248,13 +293,13 @@
 
 @keyframes efecto-aparicion-right {
 
-    from{
+    from {
         opacity: 0;
         transform: translateX(200px);
     }
-    to{
+
+    to {
         opacity: 1;
         transform: translateX(0px);
     }
 }
-

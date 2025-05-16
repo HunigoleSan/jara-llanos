@@ -1,176 +1,148 @@
-
 @media screen and (max-width: 780px) {
-    .servicios{
+    .servicios {
         gap: 35px;
-        
+
     }
-    
+
     .vector-ellipse-1,
     .vector-ellipse-2,
     .vector-pluma-1,
     .vector-pluma-2,
     .vector-pluma-3 {
-    display: none;
-}
+        display: none;
+    }
 
 }
+
 @media screen and (max-width: 530px) {
-    .card{
+    .card {
         width: 100%;
     }
 
-    .card-content{
+    .card-content {
         width: 100%;
     }
 }
 
 @media screen and (min-width: 500px) {
-    .presentation__img {
-        padding-top: 24px;
-        padding-bottom: 24px;
-    }
-    .woman{
-        height: 350px;
-    }
-    .vector-left{
-        top: 25%;
-        left: -35%;
-    }
-    
-    .vector-right{
-        right: -27%;
-        top: 30%;
-    }
-    .vector-bottom{
-        top: 53%;
-        z-index: 4;
-        left: -30%;
-    }
-    @keyframes desplazamiento-vector{
-        to{
-            transform: translateY(10px) scale(.75);
+
+
+    @keyframes desplazamiento-vector {
+        to {
+            transform: translateY(10px);
         }
-        from{
-            transform: translateY(-10px) scale(.75);
+
+        from {
+            transform: translateY(-10px);
         }
     }
 
-    @keyframes desplazamiento-specialization{
-        to{
-            transform: translateY(10px) scale(.85);
-        }
-        from{
-            transform: translateY(-10px) scale(.85);
-        }
-    }
-    .implantalogo{
-        right: -50%;
-        top: -5%;
-    }
-    .ortodoncista{
-        top: 10%;
-        left: -20%;
-        z-index: 2;
-        background: var(--color-sky);
-        color: var(--color-text-white);
-    }
-    .endodonciasta{
-        top: 45%;
-        right: -50%;
-    }
-    .cirujano{
-        top: 65%;
-        left: -40%;
-    }
 }
 
 
+
+
 @media screen and (min-width: 600px) {
+    .presentation__img {
+        padding-top: 16px;
+    }
+
     .btn-social,
-    .btn{
+    .btn {
         max-width: max-content;
     }
-    
-    .presentation__img{
+
+    .presentation__img {
         max-width: 491px;
         width: 100%;
     }
 }
+
 @media screen and (min-width: 818px) {
-    .container-ellipse{
+    .container-ellipse {
         display: block;
     }
-    .header{
+
+    .header {
         padding: 10px 50px;
     }
-    .servicios{
+
+    .servicios {
         padding: 50px;
     }
-    .conocenos{
+
+    .conocenos {
         padding: 50px 0px;
     }
-    .conocenos__art{
+
+    .conocenos__art {
         padding: 0px 50px;
     }
-    .testimonios{
+
+    .testimonios {
         padding: 50px;
     }
 
     .data__title,
-    .section-description{
+    .section-description {
         text-align: center;
     }
-    .content__links{
+
+    .content__links {
         justify-content: center;
     }
-    .presentation__content{
+
+    .presentation__content {
         align-items: center;
     }
-    .woman{
-        height: 350px;
+
+    .presentation {
+        padding: 20vh 1rem 1rem 1rem;
     }
-    .presentation{
-        padding: 160px 1rem 1rem 1rem;
-    }
-    
+
 }
 
-@media screen and (min-width:830px) {
-    
-}
+@media screen and (min-width:830px) {}
 
 @media screen and (min-width: 1040px) {
 
-    .contactanos__contianer__data{
+    .contactanos__contianer__data {
         display: flex;
         justify-content: center;
         align-items: center;
         width: 100%;
     }
-    .iframe{
+
+    .iframe {
         align-self: stretch;
     }
-    .contactanos__data{
+
+    .contactanos__data {
         padding: 100px;
         gap: 50px;
         width: 50%;
     }
 }
+
 @media screen and (min-width: 1100px) {
 
-    .logo__name-consultorio{
+    .logo__name-consultorio {
         padding-left: 72px;
     }
-    .logo__name{
+
+    .logo__name {
         top: 44%;
     }
-    .logo__name-jara{
+
+    .logo__name-jara {
         padding-left: 45px;
     }
-    .svg-navbar{
+
+    .svg-navbar {
         display: none;
     }
-    .list{
+
+    .list {
         position: unset;
         margin-left: unset;
         padding: unset;
@@ -180,122 +152,137 @@
         padding-left: 70px;
 
     }
-    .btn-reservar-mobile{
+
+    .btn-reservar-mobile {
         display: none;
     }
-    .btn-reservar-desktop{
+
+    .btn-reservar-desktop {
         display: block;
     }
-    .show-navbar-mobile{
+
+    .show-navbar-mobile {
         margin-left: unset;
     }
-    .logo-icon-desktop{
+
+    .logo-icon-desktop {
         display: block;
     }
-    .logo-icon-mobile{
+
+    .logo-icon-mobile {
         display: none;
     }
-    .nav{
+
+    .nav {
         justify-content: space-between;
-    }   
+    }
 }
 
 @media screen and (min-width:1240px) {
-    .presentation{
+    .presentation {
         flex-direction: unset;
         justify-content: space-between;
-    } 
-    .woman{
-        height: 450px;
-    }
-    .blur-woman{
-        height: 450px;
+        padding-left: 50px;
+        padding-right: 50px;
     }
 
-    .vector-left{
+    .vector-left {
         top: 30%;
         left: -25%;
     }
-    
-    .vector-right{
+
+    .vector-right {
         right: -20%;
         top: 30%;
     }
-    .vector-bottom{
+
+    .vector-bottom {
         top: 55%;
         z-index: 4;
         left: -15%;
     }
-    @keyframes desplazamiento-vector{
-        to{
+
+    @keyframes desplazamiento-vector {
+        to {
             transform: translateY(10px) scale(.88);
         }
-        from{
+
+        from {
             transform: translateY(-10px) scale(.88);
         }
     }
 
-    @keyframes desplazamiento-specialization{
-        to{
+    @keyframes desplazamiento-specialization {
+        to {
             transform: translateY(10px) scale(1.1);
         }
-        from{
+
+        from {
             transform: translateY(-10px) scale(1.1);
         }
     }
-    .implantalogo{
+
+    .implantalogo {
         right: -26%;
         top: -3%;
     }
-    .ortodoncista{
+
+    .ortodoncista {
         top: 14%;
         left: -15%;
         z-index: 2;
         background: var(--color-sky);
         color: var(--color-text-white);
     }
-    .endodonciasta{
+
+    .endodonciasta {
         top: 47%;
         right: -20%;
     }
-    .cirujano{
+
+    .cirujano {
         top: 65%;
         left: -30%;
     }
 
-    .presentation__content{
+    .presentation__content {
         align-items: start;
     }
+
     .data__title,
-    .section-description{
+    .section-description {
         text-align: start;
     }
-    .content__links{
+
+    .content__links {
         justify-content: start;
     }
-    
+
 }
+
 @media screen and (min-width: 1400px) {
 
-    .implantalogo{
+    .implantalogo {
         right: 65%;
         top: -3%;
     }
-    .ortodoncista{
+
+    .ortodoncista {
         top: 25%;
         left: -60%;
         z-index: 2;
         background: var(--color-sky);
         color: var(--color-text-white);
     }
-    .endodonciasta{
+
+    .endodonciasta {
         top: 50%;
         right: 120%;
     }
-    .cirujano{
+
+    .cirujano {
         top: 65%;
         left: -50%;
     }
-    
-}
 
+}

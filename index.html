@@ -174,47 +174,57 @@
                         <img src="assets/img/inicio/Blanqueamiento-Dental.webp" alt="Blanqueamiento-Dental">
                         <p class="specializations__name">Blanqueamiento Dental</p>
                     </div>
-                    <img style="--t:3s" class="vector vector-left" src="assets/img/aure-left.webp" alt="aure-left">
-                    <img style="--t:3s" class="vector vector-left blur-vector" src="assets/img/aure-left.webp"
-                        alt="aure-left">
-                    <img style="--t:2.5s" class="vector vector-right" src="assets/img/aure-right.webp" alt="aure-right">
-                    <img style="--t:3.5s" class="vector vector-right blur-vector" src="assets/img/aure-right.webp"
-                        alt="aure-right">
-                    <img style="--t:4.5s" class="vector vector-bottom" src="assets/img/aure-bottom.webp"
-                        alt="aure-bottom">
-                    <img style="--t:4.5s" class="vector vector-bottom blur-vector-bottom"
-                        src="assets/img/aure-bottom.webp" alt="aure-bottom">
-                    <img style="--t:6s" class="woman" src="assets/img/inicio/woman-header.webp" alt="woman-header">
-                    <img style="--t:6s" class="woman blur-woman" src="assets/img/inicio/woman-header.webp"
-                        alt="woman-header">
+
+                    <picture class="vector vector-left">
+                        <source media="(min-width:1240px)" srcset="assets/img/aure-left.webp">
+                        <img style="--t:3s" src="assets/img/aure-left-medium.webp" alt="aure-left">
+                    </picture>
+
+                    <picture class="vector vector-right">
+                        <source media="(min-width:1240px)" srcset="assets/img/aure-right.webp">
+                        <img style="--t:4.5s" src="assets/img/aure-right-medium.webp" alt="aure-right">
+                    </picture>
+                    
+                    <picture class="vector vector-bottom">
+                        <source media="(min-width:1240px)" srcset="assets/img/aure-bottom.webp">
+                        <img style="--t:5s" src="assets/img/aure-bottom-medium.webp" alt="aure-bottom">
+                    </picture>
+                    
+                    <picture style="--t:6s" class="woman">
+                        <source media="(min-width:1240px)" srcset="assets/img/inicio/woman-header.webp">
+                        <img src="assets/img/inicio/woman-header-medium.webp" alt="woman-header">
+                    </picture>
+                    
                 </div>
             </section>
         </section>
         <section id="servicios" class="servicios">
             <div class="container-picture">
                 <picture class="vector-ellipse-big">
+                    <!-- IMAGEN DE TAMAÑO GRANDE -->
                     <source media="(min-width: 550px)" srcset="assets/img/servicios/ellipse_big.webp">
-                    <img src="assets/img/servicios/ellipse_big_small.png" alt="ellipse_big-small">
+                    <!-- IMAGEN DE TAMAÑO PEQUEÑO -->
+                    <img src="assets/img/servicios/ellipse_big_small.webp" alt="ellipse_big-small">
                 </picture>
                 <picture class="vector-pluma-bottom">
                     <source media="(min-width: 550px)" srcset="assets/img/servicios/pluma-bottom.webp">
-                    <img class="" src="assets/img/servicios/pluma-bottom-small.png" alt="pluma-bottom-small">
+                    <img class="" src="assets/img/servicios/pluma-bottom-small.webp" alt="pluma-bottom-small">
                 </picture>
                 <picture class="vector-pluma-top">
                     <source media="(min-width: 550px)" srcset="assets/img/servicios/pluma-top.webp">
-                    <img class="" src="assets/img/servicios/pluma-top-small.png" alt="pluma-top-small">
+                    <img class="" src="assets/img/servicios/pluma-top-small.webp" alt="pluma-top-small">
                 </picture>
                 <picture class="vector-pluma-top-diagonal-right">
                     <source media="(min-width: 550px)" srcset="assets/img/servicios/pluma-top-diagonal-right.webp">
-                    <img class="" src="assets/img/servicios/pluma-top-diagonal-right-small.png" alt="pluma-top-small">
+                    <img class="" src="assets/img/servicios/pluma-top-diagonal-right-small.webp" alt="pluma-top-small">
                 </picture>
                 <picture class="vector-ellipse-small">
                     <source media="(min-width: 550px)" srcset="assets/img/servicios/ellipse_small.webp">
-                    <img class="" src="assets/img/servicios/ellipse_small-small.png" alt="pluma-top-small">
+                    <img class="" src="assets/img/servicios/ellipse_small-small.webp" alt="pluma-top-small">
                 </picture>
                 <picture class="vector-pluma-top-diagonal-left">
                     <source media="(min-width: 550px)" srcset="assets/img/servicios/pluma-bottom-diagonal-left.webp">
-                    <img class="" src="assets/img/servicios/pluma-bottom-diagonal-left-small.png" alt="pluma-top-small">
+                    <img class="" src="assets/img/servicios/pluma-bottom-diagonal-left-small.webp" alt="pluma-top-small">
                 </picture>
             </div>
             <section class="section-title">
