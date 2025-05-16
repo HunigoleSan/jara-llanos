@@ -67,7 +67,7 @@ html{
     padding-left: 34px;
 }
 .logo__name-dental{
-    font-family: 'inter_variableitalic',sans-serif;
+    font-family: 'Inter',sans-serif;
     font-size: var(--font-size-logo-dental);
     font-style: italic;
     color: var(--color-primary);
