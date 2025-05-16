@@ -38,7 +38,6 @@
 }
 .atraer_experiencia > ul > li > span{
     font-size: var(--tamano-atraer-usuarios);
-    font-family: 'Lato', sans-serif;
     font-weight: var(--font-weight-bold);
 }
 .atraer_experiencia > ul >li > p{
@@ -50,7 +49,6 @@
     flex-direction: column;
     padding: 1rem;
     color: var(--color-white);
-    font-family: 'Lato', sans-serif;
     gap: 50px;
     align-items: center;
 }
